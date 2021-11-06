@@ -1,0 +1,331 @@
+@media screen and (min-width: 768px){
+    .contenedor .header nav{
+        display: flex !important;
+    }
+}
+@media screen and (max-width: 2560px) and (min-width: 481px){
+    /*SERVICIOS*/
+    .contenedor .services .services-content .services-content-detail .row .posts article:nth-child(2n + 1):after{
+        width: 100%;
+    }
+    /*=========*/
+}
+@media screen and (max-width: 991px){
+    /*columna 1*/
+    .contenedor .header nav ul li a{
+        padding: 0px;
+        margin: 0px 3px;
+    }
+    /*===========*
+    /*columna2*/
+    .contenedor .header nav ul li a::before{
+        bottom: -10px;
+    }
+    /*========*/
+    /*columna 3*/
+    .contenedor .header .top-socials .socials ul li a{
+        margin: 0px 3px;
+        font-size: 20px;
+    }
+    /*===========*/
+    /*SECCION 2*/
+    .contenedor .home-page .content-section-1  .container .row .dt-card-g{
+        width: 100%;
+    }
+    /*========*/
+    /*FOOTER*/
+    .contenedor .footer-content .footer-maps{
+        width: 80%;
+        min-height: 450px;
+        margin: 0 auto;
+    }
+    .footer-content .row > div:not(:first-child) {
+        border: none;
+    }
+    /*======*/
+}
+@media screen and (max-width: 961px){
+    /*HOME PAGE SECCION 1*/
+    .contenedor .home-page .content-section-1 .data-section .parallax .data .dt-column-1 .data-tittle .dt-icon{
+        position: relative;
+        left: 0;
+        margin: 0 auto;
+    }
+    .contenedor .home-page .content-section-1 .data-section .parallax .data .dt-column-1 .data-tittle .dt-h1 h1{
+        padding-top: 25px;
+    }
+    /*===================*/
+}
+@media screen and (max-width: 767px){
+    /*COLUMNA 1*/
+    .contenedor .header .logo .img-logo img{
+        max-width: 120px;
+    }
+    /*=========*/
+    /*columna 2*/
+    .contenedor .header .row .menu-bar{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .contenedor .header nav{
+        position: absolute;
+        display: none;
+        left: 0;
+        top: 100%;
+        justify-content: center;
+        height: 220px;
+        z-index: ;
+    }
+    .contenedor .header nav ul{
+        background: rgba(0,0,0,0.9);
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 10px;
+    }
+    .contenedor .header nav ul li{
+        display: inline-block;
+        background: rgb(255, 255, 255,0.1);
+        width: 100%;
+        margin: 5px;
+    }
+    .contenedor .header nav ul li a{
+        padding: 5px;
+        color: white;
+        font-size: 15px;
+        font-weight: 400;
+    }
+    .contenedor .header nav ul li a::before{
+        display: none;
+    }
+    .contenedor .header .btn-main{
+        width: 40px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        cursor: pointer;
+    }
+    .contenedor .header .btn-main .icon{
+        position: absolute;
+        width: 20px;
+        height: 3px;
+        transition: .5s;
+        border-radius: 25px;
+        background: black;
+    }
+    .contenedor .header .btn-main .icon::before{
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 3px;
+        background: black;
+        top: 8px;
+        left: 0;
+        transition: .5s;
+        border-radius: 25px;
+    }
+    .contenedor .header .btn-main .icon::after{
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 3px;
+        background: black;
+        top: -8px;
+        left: 0;
+        transition: .5s;
+        border-radius: 25px;
+    }
+    .contenedor .header .btn-main.active .icon{
+        background: rgb(255, 255, 255,0);
+        box-shadow: 0 2px 5px rgb(200, 200, 200,0);
+    }
+    .contenedor .header .btn-main.active .icon::before{
+        transform: rotate(45deg);
+        top: 0;
+    }
+    .contenedor .header .btn-main.active .icon::after{
+        transform: rotate(135deg);
+        top: 0;
+    }
+    .contenedor .header .top-socials .socials ul li a{
+        margin: 0px 20px;
+        padding: 5px;
+    }
+    
+    /*SECTION 2*/
+    .contenedor .home-page .content-section-1 .container .row .dt-card-g{
+        width:100%;
+    }
+    .contenedor .home-page .content-section-1  .container .row .dt-subti h2{
+        font-size: 24px;
+    }
+    /*=========*/
+    /*SECCION 3*/
+    .contenedor .home-page .content-section-1 .row .dt-info{
+        padding-top:50px;
+    }
+    .contenedor .home-page .content-section-1 .row .dt-info h4{
+        font-size: 24px;
+    }
+    .contenedor .home-page .content-section-1 .row .dt-info p{
+        font-size: 15px;
+    }
+    /*=======*/
+    /*FOOTER*/
+    .footer-content .row > div:not(:last-child) {
+        border-right: none;
+    }
+    .contenedor .footer-content .footer-maps{
+        width: 100%;
+        min-height: 450px;
+        margin: 0;
+    }
+    /*======*/
+    /*SECTION 4*/
+    .number-brand h2{
+        font-size: 160px;
+        top: 50px;
+    }
+    .contenedor .home-page .content-section-1 .row .dt-info-a h4{
+        font-size: 22px;
+    }
+    .contenedor .home-page .content-section-1 .row .dt-info-a p{
+        font-size: 15px;
+    }
+    /*===========*/
+    /*NOSOTROS*/
+    
+    .multi-parallax .about-head h2{
+        font-size: 22px;
+    }
+    .multi-parallax .about-head .dt-design{
+        padding-top: 10px;
+    }
+    .contenedor .about .about-content .about-content-detail .row .how h1,
+    .contenedor .services .services-content .services-content-detail .row .services-tittle h1,
+    .contenedor .catalogo .catalogo-content .catalogo-content-detail .row .catalogo-tittle h1,
+    .contenedor .contact .contact-content .contact-content-detail .row .contact-tittle h1{
+        font-size: 22px;
+    }
+    .contenedor .about .about-content .about-content-detail .row .how h2,
+    .contenedor .services .services-content .services-content-detail .row .services-tittle h2,
+    .contenedor .catalogo .catalogo-content .catalogo-content-detail .row .catalogo-tittle h2,
+    .contenedor .contact .contact-content .contact-content-detail .row .contact-tittle h2{
+        font-size: 16px;
+    }
+    .contenedor .about .about-content .about-content-detail .row .how p{
+        font-size: 15px;
+    }
+    .contenedor .about .about-content .about-content-detail .row .about-data .about-data-head h3{
+        font-size: 22px;
+    }
+    .contenedor .about .about-content .about-content-detail .row .about-data .about-data-body{
+        font-size: 15px;
+    }
+    /*========*/
+}
+@media screen and (max-width: 575px){
+    /*header-principal-mobile*/
+    .contenedor .header .top-socials{
+        background: black;
+    }
+    .contenedor .header .top-socials .socials ul li a{
+        padding: 5px;
+        font-size: 15px;
+        margin: 0px 20px;
+        color: white;
+    }
+    /*=======================*/
+    /*FOOTER*/
+    .footer-content .row > div:not(:last-child) {
+        border: none;
+    }
+    .contenedor .footer-content .footer-content-header,.contenedor .footer-content .footer-content-body{
+        text-align: center;
+    }
+    .contenedor .footer-content .footer-content-body .footer-content-list{
+        margin: 0 auto;
+        text-align: center;
+    }
+    /*======*/
+    /*NOSOTROS*/
+    .multi-parallax{
+        padding:10%;
+    }
+    /*=======*/
+}
+@media screen and (max-width: 560px){
+    .contenedor .multi-services .multi-services-content .request-button ul li{
+        display: inline;
+        margin: 0px 10px;
+    }
+    .contenedor .multi-services .multi-services-content .request-button ul li a{
+        width: 250px;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width: 515px){
+    /*SERVICIOS*/
+    .contenedor .services .services-content .services-content-detail .row .posts {
+        margin: 0 0 2em 0;
+        width: 100%;
+    }
+    .contenedor .services .services-content .services-content-detail .row .posts article {
+        margin: 0 0 4.5em 0;
+        width: 100%;
+    }
+    .contenedor .services .services-content .services-content-detail .row .posts:before{
+        display: none;
+    }
+    .contenedor .services .services-content .services-content-detail .row .posts article:after {
+        width: 100%;
+    }
+    /*=========*/
+}
+@media screen and (max-width: 456px){
+    /*GENERAL*/
+    .img-logo, .socials, .dt-column-1, .dt-column-2, .dt-icon, .dt-info {
+        padding: 0;
+    }
+    /*========*/
+    /*HOME PAGE SECCION 1*/
+    .contenedor .home-page .content-section-1 .data-section .parallax .data .dt-column-1 .data-tittle .dt-icon{
+        width: 90px;
+        height: 90px;
+        font-size: 35px;
+    }
+    
+    .contenedor .home-page .content-section-1 .data-section .parallax .data .dt-column-1 .data-tittle .dt-h1 h1{
+        font-size: 25px;
+    }
+    .contenedor .home-page .content-section-1 .data-section .parallax .data .dt-column-2 .dt-buttons ul li a{
+        width: 100%;
+    }
+    /*====================*/
+    /*HOME PAGE SECCION 2*/
+    .contenedor .home-page .content-section-1 .container .row .dt-subti{
+        padding: 10% 0px;
+    }
+    /*===================*/
+    /*FOOTER*/
+    .contenedor .footer-content .footer-maps{
+        min-height: 250px;
+    }
+    /*======*/
+}
+@media screen and (max-width: 352px){
+    .contact-data .contact-info ul li .content .value{
+        font-size: 15px;
+    }
+    .contenedor .multi-services .multi-services-content .request-button ul li a{
+        width: 100%;
+        font-size: 14px;
+    }
+}
