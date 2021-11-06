@@ -63,7 +63,7 @@ header.sticky{
     border-radius: 50%;
     
 }
-.whatsapps::before,.#whatsapps::after{
+.whatsapps::before,.whatsapps::after{
     content: '';
     position: absolute;
     display: block;
