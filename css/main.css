@@ -53,7 +53,7 @@ header.sticky{
     height: 60px;
     text-align: center;
     font-size: 35px;
-    color: white;
+    /* color: white;    */
     cursor: pointer;
     position: fixed;
     bottom: 150px;
@@ -102,7 +102,9 @@ header.sticky{
     height: 100%;
     border-radius: 50%;
     color: white;
-    background-color: #25d366;
+    /*   background-color: #25d366;   */
+	background-color:#25d366;
+	
     transition: .5s;
     box-shadow: 0 2px 6px 0 rgba(0, 0, 0, .5);
 }
